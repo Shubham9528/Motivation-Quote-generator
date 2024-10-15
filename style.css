@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    
+}
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+}
+.text{
+    
+    padding: 20px;
+    font-size: 20px;
+}
+#author{
+   margin-left:65%;
+}
+.btn{
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    background-color:blueviolet;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
